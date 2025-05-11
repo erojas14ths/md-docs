@@ -27,6 +27,10 @@ Show: Use UUID
 
 V. Edit config mount disk
 
+`sudo nano /etc/fstab`
+
+Add
+
 `UUID=6666BA9166BA620B /media/drive ntfs defaults 0 0`
 
 VI. Reboot

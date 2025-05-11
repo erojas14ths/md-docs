@@ -60,3 +60,55 @@ Icon=/home/erojas/Programs/postman/app/icons/icon_128x128.png
 Categories=Development;
 Keywords=postman;
 ```
+
+III. VisualVM
+
+```
+[Desktop Entry]
+Name=VisualVM
+Comment=VsualVM
+Exec=/home/erojas/Programs/visualvm/bin/visualvm
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/home/erojas/Programs/visualvm/bin/visualvm.svg
+Categories=Development;IDE;Debugger;Profiling
+Keywords=visualvm;
+```
+
+IV. Jmeter
+
+Script: run\_jmeter.sh
+
+```
+#!/bin/bash
+
+# Cargar SDKMAN! si lo usas
+
+if \[ -f "$HOME/.sdkman/bin/sdkman-init.sh" \]; then  
+source "$HOME/.sdkman/bin/sdkman-init.sh"  
+fi
+
+# Cargar Java Home (si no usas SDKMAN!)
+
+# export JAVA\_HOME=/path/to/your/java
+
+# Ejecutar JMeter
+
+/home/erojas/Programs/jmeter/bin/jmeter.sh
+```
+
+desktop
+
+```
+\[Desktop Entry\]  
+Name=JMeter  
+Comment=JMeter  
+Exec=/home/erojas/Programs/jmeter/run\_jmeter.sh  
+Terminal=false  
+Type=Application  
+StartupNotify=true  
+Icon=/home/erojas/Programs/jmeter/docs/images/jmeter.png  
+Categories=Development;Testing;Profiling  
+Keywords=jmeter;
+```
