@@ -45,3 +45,18 @@ Icon=/home/erojas/Programs/idea/bin/idea.png
 Categories=Development;IDE;Debugger;Profiling
 Keywords=idea;
 ```
+
+II. Postman
+
+```
+[Desktop Entry]
+Name=Postman
+Comment=Postman
+Exec=/home/erojas/Programs/postman/Postman
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/home/erojas/Programs/postman/app/icons/icon_128x128.png
+Categories=Development;
+Keywords=postman;
+```
