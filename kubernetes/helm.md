@@ -1,5 +1,8 @@
 # Helm
 
+- Kubernetes package manager.
+- Chart: A package.
+
 ## Commands:
 
 I. Repository
@@ -42,4 +45,10 @@ VI. Uninstall chart with namespace
 
 ```
 helm uninstall mysite --namespace laboratory
+```
+
+VII. Upgrade changes
+
+```
+helm upgrade lab-mock-server ./lab-mock-server -n laboratory
 ```
