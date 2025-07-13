@@ -101,7 +101,7 @@ fi
 desktop
 
 ```
-\[Desktop Entry\]  
+[Desktop Entry]
 Name=JMeter  
 Comment=JMeter  
 Exec=/home/erojas/Programs/jmeter/run\_jmeter.sh  
@@ -111,4 +111,18 @@ StartupNotify=true
 Icon=/home/erojas/Programs/jmeter/docs/images/jmeter.png  
 Categories=Development;Testing;Profiling  
 Keywords=jmeter;
+```
+
+V. Pycharm Comunyity
+```
+[Desktop Entry]
+Name=Pycharm Comunity
+Comment=The Most Intelligent Python IDE
+Exec=/home/erojas/Programs/pycharm/bin/pycharm.sh
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/home/erojas/Programs/pycharm/bin/pycharm.svg
+Categories=Development;IDE;Debugger;Profiling
+Keywords=python;
 ```

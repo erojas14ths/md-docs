@@ -1,4 +1,4 @@
-# Mount external disc
+# Hands on mount external disc
 
 I. Create the mount point
 
